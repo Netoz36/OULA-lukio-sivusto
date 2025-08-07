@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <style>
+      body {
+        background-color: rgb(132, 132, 132);
+      }
+      .yläpalkki {
+        height: 50px;
+        background-color: rgb(51, 51, 51);
+        margin-bottom: 20px;
+      }
+      .nimidiv {
+        width: 33%;
+        float: left;
+      }
+      .nimi{
+        margin: 0;
+        font-family: Arial;
+        font-weight: 600;
+        font-size: 20px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        padding-left: 10px;
+        color: white;
+        display: inline-block;
+      }
+      .linkdiv {
+        display: flex;
+        justify-content: flex-end;
+        height: 50px;
+        width: 66%;
+      }
+      .link {
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration-line: none;
+        padding: 10px;
+        margin: 5px;
+        border: solid;
+        border-color: black;
+        background-color: rgb(42, 143, 237);
+        font-weight: 600;
+        color: white;
+        transition: opacity 150ms;
+      }
+      .link:hover {
+        cursor: pointer;
+        opacity: 0.7;
+      }
+      .leipä{
+        padding: 10px 0;
+        height: 300px;
+        background-color: rgb(92, 91, 91);
+        border-radius: 5px;
+      }
+      .totti {
+        width: 30%;
+        margin: 0 1%;
+        float: left;
+      }
+      .TOTkuvadiv {
+        display: inline-block;
+        width: 100%;
+      }
+      .TOTkuva {
+        width: 100%;
+        height: 300px;
+        border-radius: 5px;
+      }
+      .teksti {
+        display: inline-block;
+        width: 68%;
+        height: 100%;
+      }
+      h1 {
+        margin-top: 0;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      p {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="yläpalkki">
+      <div class="nimidiv">
+        <p class="nimi">Oulaisten Lukio</p>
+      </div>
+      <div class="linkdiv">
+        <a class="link" href="main.html" target="_self">ETUSIVU</a>
+        <a class="link" href="uutiset.html" target="_self">UUTISET</a>
+        <a class="link" href="yhteistiedot.html" target="_self">YHTEISTIEDOT</a>
+      </div>
+    </div>
+
+    <div class="leipä">
+      <div class="totti">
+        <div class="TOTkuvadiv">
+          <img src="totti.png" class="TOTkuva">
+        </div>
+      </div>
+      <div class="teksti">
+        <h1>RIP Totti 2022-2025</h1>
+        <p>Syksyllä 2025 saimme tietää, että Totti tulee jättämään meidät.
+        Ahneuden päihittämänä hän valitsi uuden työpaikkansa yli meidän Lukiomme. &#9785;</p>
+        <p>Pitkän, mutta liian aikaisin loppuneen työuransa aikana hän 
+          toimi mm. opettajana, tuomarina sekä yleisenä opiskelumotivaation nostattajana.
+          Aikamme suuret filosofit pohtivat kuinka 23B-ryhmälle nyt käy ilman Totin ohjausta.
+        </p>
+        <p>
+          Lukion käytäviltä voit löytää muraaleja, jotka ovat osoitettu Totille.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

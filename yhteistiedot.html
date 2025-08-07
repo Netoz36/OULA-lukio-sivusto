@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <style>
+      body {
+        background-color: rgb(132, 132, 132);
+      }
+      .yläpalkki {
+        height: 50px;
+        background-color: rgb(51, 51, 51);
+        margin-bottom: 20px;
+      }
+      .nimidiv {
+        width: 33%;
+        float: left;
+        height: 50px;
+      }
+      .nimi{
+        margin: 0;
+        font-family: Arial;
+        font-weight: 600;
+        font-size: 20px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        padding-left: 10px;
+        color: white;
+        display: inline-block;
+      }
+      .linkdiv {
+        display: flex;
+        justify-content: flex-end;
+        height: 50px;
+        width: 66%;
+      }
+      .link {
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration-line: none;
+        padding: 10px;
+        margin: 5px;
+        border: solid;
+        border-color: black;
+        background-color: rgb(42, 143, 237);
+        font-weight: 600;
+        color: white;
+        transition: opacity 150ms;
+      }
+      .link:hover {
+        cursor: pointer;
+        opacity: 0.7;
+      }
+      .info {
+        background-color: rgb(87, 87, 87);
+        padding-top: 10px;
+        padding-bottom: 50px;
+      }
+      .yht {
+        margin: 5px 0;
+        margin-left: 10px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 50px;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="yläpalkki">
+      <div class="nimidiv">
+        <p class="nimi">Oulaisten Lukio</p>
+      </div>
+      <div class="linkdiv">
+        <a class="link" href="main.html" target="_self">ETUSIVU</a>
+        <a class="link" href="uutiset.html" target="_self">UUTISET</a>
+        <a class="link" href="yhteistiedot.html" target="_self">YHTEISTIEDOT</a>
+      </div>
+    </div>
+    <div class="info">
+      <p class="yht">Nesto Rantala</p>
+      <p class="yht">nesto.rantala@edu.oulainen.fi</p>
+      <p class="yht">+358 40 960 5833</p>
+    </div>
+  </body>
+</html>
